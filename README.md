@@ -1,78 +1,97 @@
-Software Testing Projects by Chandresh Patle
+1. Manual Testing Projects
+E‑commerce Website Testing
 
-Welcome to the Software Testing Projects repository! This repository contains a collection of comprehensive projects designed to enhance your skills in both manual and automated testing. Whether you're a beginner or an experienced tester, these projects will provide you with hands-on experience and practical knowledge.
-Table of Contents
+Focuses on testing critical flows like product search, cart operations, user registration, and checkout.
 
-    Introduction
-    Manual Testing Projects
-        Project 1: E-commerce Website Testing
-        Project 2: Banking Application Testing
-    Automation Testing Projects
-        Project 1: Selenium WebDriver
-        Project 2: API Testing with Postman
-        Project 3: Performance Testing with JMeter
-    Setup and Installation
-    Contributing
-    License
+Deliverables: test plan, test cases, and bug reports.
 
-Introduction
+Banking Application Testing
 
-This repository is curated by Chandresh Patle to help you get started with software testing projects. It covers a variety of testing methodologies and tools, providing you with a solid foundation in both manual and automation testing.
-Manual Testing Projects
+Covers use cases such as login, fund transfer, account statements, and security.
 
-Project 1: E-commerce Website Testing
+Includes test plan, execution records, and defect documentation.
 
-    Objective: To test the functionality, usability, and security of an e-commerce website.
-    Scope: Test cases for product search, user registration, shopping cart, and payment gateway.
-    Deliverables: Test Plan, Test Cases, Bug Reports.
+2. Automation Testing Projects
+Selenium WebDriver (Java + TestNG)
 
-Project 2: Banking Application Testing
+Automates flows like login, form handling, and data validation.
 
-    Objective: To ensure the reliability and security of a banking application.
-    Scope: Test cases for user login, fund transfer, account statements, and transaction security.
-    Deliverables: Test Plan, Test Cases, Bug Reports.
+Uses Page Object Model (POM), includes test scripts, and generates reports via TestNG.
 
-Automation Testing Projects
-Project 1: Selenium WebDriver
+API Testing with Postman
 
-    Objective: To automate web application testing using Selenium WebDriver.
-    Scope: Write test scripts for login functionality, form submissions, and data validations.
-    Tools Used: Selenium WebDriver, TestNG, Maven.
-    Deliverables: Automation Scripts, Test Results, Framework Design.
+Covers REST endpoints with HTTP methods: GET, POST, PUT, DELETE.
 
-Project 2: API Testing with Postman
+Provides Postman collections, validation scripts, and documentation for execution via Postman and Newman.
 
-    Objective: To test RESTful APIs using Postman.
-    Scope: Create and execute test cases for GET, POST, PUT, DELETE requests.
-    Tools Used: Postman, Newman.
-    Deliverables: Collection of API Tests, Test Reports.
+Performance Testing with JMeter
 
-Project 3: Performance Testing with JMeter
+Performance plans testing app behavior under load.
 
-    Objective: To assess the performance of a web application under load.
-    Scope: Create and execute performance test plans for key functionalities.
-    Tools Used: Apache JMeter.
-    Deliverables: JMeter Test Plans, Performance Reports, Analysis.
+Includes test plans and analysis reports.
 
-Setup and Installation
+3. Deliverables and Structure
+Clearly defined objectives, scopes, and tool stacks for each project.
 
-    Clone the Repository:
+Manual artifacts such as test case spreadsheets and bug logs.
 
-    sh
+Automation scripts structured for maintainability and reusability.
 
-    git clone https://github.com/chandreshpatle/software-testing-projects.git
-    cd software-testing-projects
+API collections and reporting tools integrated for robust testing pipelines 
+geeksforgeeks.org
++4
+github.com
++4
+codegnan.com
++4
+.
 
-    Install Required Tools:
-        For Selenium: Java, Maven, Selenium WebDriver.
-        For Postman: Download and install Postman.
-        For JMeter: Download and install Apache JMeter.
+✅ What This Repository Does: Key Takeaways
+Manual Testing: Develops test plans, execution of test cases, and structured bug tracking.
 
-Contributing
+API Framework: Provides live examples of Postman collections and Newman-based automation.
 
-Contributions are welcome! Please read the CONTRIBUTING.md file for guidelines on how to contribute to this repository.
-License
+UI Automation: Automates web flows using Selenium + TestNG in Java, following the POM design.
 
-This repository is licensed under the MIT License. See the LICENSE file for more information.
+End-to-End QA Practice: Includes manual, automation, and performance testing—all in one place.
 
-Feel free to reach out for any questions or suggestions. Happy Testing!
+Professional Documentation: README and folder layout guide you step by step to replicate your own QA process.
+
+🛠 How You Can Adapt This Repo for Your Portfolio
+Clone or fork the repository to your GitHub account.
+
+Run the Postman collection and export JSON to use as part of your own deliverables.
+
+Execute Selenium test suites locally and review test results using TestNG reports.
+
+Customize or rename test artifacts (test plans, bug reports) to reflect your own project’s context.
+
+Optionally integrate your own small task‑management application as the tested module.
+
+🧠 STLC-Centered Application
+You can overlay the STLC cycle on these modules:
+
+Requirement Analysis → Understand AUT flows
+
+Test Planning → Follow provided test plan templates
+
+Test Design → Write manual test cases across UI and API
+
+Test Execution → Run manual and automation tests
+
+Defect Reporting → Log bugs using formats in the repo
+
+Test Closure → Generate final QA report combining all phases
+
+📌 Final Summary
+This project repo covers:
+
+Manual testing deliverables (test plans, cases, bug reports)
+
+API testing automation via Postman + Newman
+
+UI automation using Selenium with Java + TestNG
+
+Performance testing (JMeter)
+
+All with clear instructions and organized files and folders
